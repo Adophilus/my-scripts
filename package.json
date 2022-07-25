@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "format:watch": "node format-watch.js",
+    "format:prettier": "prettier"
+  },
+  "dependencies": {
+    "node-watch": "^0.7.3",
+    "prettier": "^2.7.1"
+  }
+}
