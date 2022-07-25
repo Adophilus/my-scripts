@@ -8,6 +8,7 @@ const extensions = [
   '.html',
   '.css',
   '.cjs',
+  '.mjs',
   '.js',
   '.jsx',
   '.ts',
