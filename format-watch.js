@@ -3,7 +3,7 @@ const fs = require('fs')
 const path = require('path')
 const { exec } = require('child_process')
 
-const workdir = process.argv[1] || process.cwd()
+const workdir = process.argv[2] || process.cwd()
 const extensions = [
   '.html',
   '.css',
