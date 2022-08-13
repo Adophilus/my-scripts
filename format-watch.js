@@ -31,7 +31,7 @@ watch(
   workdir,
   {
     recursive: true,
-    filter: (f) => !/node_modules|\.git|\.next|\.public/.test(f)
+    filter: (f) => !/node_modules|\.git|\.next|\.public|build|bin|.bin/.test(f)
   },
   function (event, filepath) {
     // console.log('%s changed.', name)
