@@ -14,7 +14,8 @@ const extensions = [
   '.ts',
   '.tsx',
   '.md',
-  '.json'
+  '.json',
+  '.pug'
 ]
 const prettify = (event, filePath) => {
   if (event === 'update') {
