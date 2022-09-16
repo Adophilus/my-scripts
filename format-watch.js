@@ -7,6 +7,7 @@ const workdir = process.argv[2] || process.cwd()
 const extensions = [
   '.html',
   '.css',
+  '.scss',
   '.cjs',
   '.mjs',
   '.js',
